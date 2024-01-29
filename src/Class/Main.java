@@ -14,6 +14,7 @@ public class Main {
 //        System.out.println(circleArea);
        // Square squ = new Square();
         //System.out.println(Square.width);
+        toMake();
     }
 
     public static void toMake() {
@@ -30,5 +31,4 @@ public class Main {
         int heightNonStatic = sqr.heightNonStatic;
         int widthStatic = Square.widthStatic;
     }
-
 }
