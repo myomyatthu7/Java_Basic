@@ -1,11 +1,14 @@
 package inheritance.this_super;
 
-// can't Multiple Inheritance in java.but c++ can;
+
+// can't Multiple Inheritance in java.but c++ can; // ambiguity
 // can Multi level Inheritance in java.
 public class MultipleInheritance {
     public static void main(String[] args) {
         Y y = new Y();
-        y.showName();
+        //y.showName();
+        X obj = (X) new Y();
+        obj.showName();
     }
 }
 class X {

@@ -1,5 +1,8 @@
 package staticFinal;
 
+// final variable -> can't reassign,
+// final method -> can't overriding from child class;
+// final Class -> can't inheritance
 public class Final extends Robot { // cannot inheritance final class
 
     // cannot override because of final
