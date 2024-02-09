@@ -1,25 +1,25 @@
-package array;
+package collection.array;
 
 import java.util.Arrays;
 
-public class Array {
+public class MyArray {
     public static void main(String[] args) {
-//        int []array = new int[3];
+//        int []collection.array = new int[3];
 //        String []name = {"Mg Mg", "Su Su", "Nu Nu", "Kyaw Kyaw"};
 //        int []num = new int[] {0,1,2};
 //        //String []num =
-//        array[0] = 5;
-//        array[1] = 4;
-//        array[2] = 3;
+//        collection.array[0] = 5;
+//        collection.array[1] = 4;
+//        collection.array[2] = 3;
 //
 //        boolean bol = Arrays.asList(name).contains("Su Su");
 //        int []copyArray = new int[3];
 //       //System.arraycopy(num,copyArray,from,to);
 //        System.out.println(bol);
 //        //name[4] = "Hla Hla"; out of bounds
-//        System.out.println(array[2]);
-//        System.out.println(array[0] + array[1]);
-//        System.out.println(Arrays.toString(array));
+//        System.out.println(collection.array[2]);
+//        System.out.println(collection.array[0] + collection.array[1]);
+//        System.out.println(Arrays.toString(collection.array));
 //        System.out.println(Arrays.toString(name));
 
 //        int []num = new int[3];
@@ -67,7 +67,7 @@ public class Array {
         System.out.println(number[1]+number[2]);
         System.out.println();
 
-        String [] name = {"Mg Mg","Aung Aung","Su Su","Nu Nu"}; // Array.Array Initialization
+        String [] name = {"Mg Mg","Aung Aung","Su Su","Nu Nu"}; // MyArray.MyArray Initialization
         System.out.println(name[2]);
 
         int [] age = new int[] {1,2,3,4,5,6,7};
