@@ -21,6 +21,7 @@ public class Test {
         String num = Integer.toString(x);
         String num1 = String.valueOf(x);
         System.out.println(z);
+        System.out.println(intValue);
 
 
     }
