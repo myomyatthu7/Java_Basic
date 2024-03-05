@@ -12,12 +12,13 @@ public class MemberInner {
 //        Machine.Camera camera = new Machine.Camera();
 //        camera.snap();
 
-//        Machine.camera.snap();
+         Machine.Camera.shot(); //static method;
 
         // non static method
-        //Machine machine = new Machine();
-        Machine.Camera camera = new Machine().new Camera();
-        camera.snap();
+//        Machine machine = new Machine();
+//        Machine.Camera camera = machine.new Camera();
+//        camera.snap();
+
     }
 }
 class Machine {
@@ -25,10 +26,13 @@ class Machine {
     public void start() {
         System.out.println(name+" is working");
     }
-    class Camera {
+      class Camera {  // memberInner may be static -> better
         static String appName = "B612";
         public void snap() {
             System.out.println("Snapping with "+appName);
         }
+         public static void shot() {
+             System.out.println("Shooting with "+appName);
+         }
     }
 }

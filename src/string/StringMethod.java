@@ -15,7 +15,7 @@ public class StringMethod {
         System.out.println(str.substring(2,7)); // 23456 // နောက်ဆုံးက တစ်လျော့
         System.out.println(moto.contains("w") || moto.contains("what")); // true
         String str1 = "012345678";
-        System.out.println(str.equals(str1)); // true // variable(obj) ချင်းချိန်ညှိတာ
+        System.out.println(str.equals(str1)); // true // Variable(obj) ချင်းချိန်ညှိတာ
         System.out.println(str.isEmpty()); // true //
         System.out.println(str.isBlank()); // true //
         System.out.println(str.concat(moto)); // 0123456789what you decide to do,make sure it make you happy.v

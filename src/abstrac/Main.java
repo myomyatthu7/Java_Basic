@@ -16,7 +16,7 @@ class Main extends Shape {
                 // new Shape().name // cannot be instantiated
 
                 Main main = new Main();
-                // System.out.println(new Main().name);// Abstract class use as a base for subclass.
+                // System.out.println(new MyVar().name);// Abstract class use as a base for subclass.
                 System.out.println(main.name);
                 main.task();
                 main.doIt();

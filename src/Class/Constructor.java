@@ -2,10 +2,10 @@ package Class;
 
 public class Constructor {
     public String name = "Su Su";
-    public Constructor() {
+    public Constructor() { // default Constructor
         System.out.println("I am Constructor!");
     }
-    //Constructor overloading
+    //Constructor overloading  // Parameterized Constructor
     public Constructor(String name) {
         // String name = "";  already defined in the scope.
         System.out.println("My Constructor name is "+name);

@@ -17,5 +17,6 @@ public class Test1 {
 //        int x = 40;
 //        String answer = x/2 == 20 ? "Ok" : "No";
 //        System.out.println(answer);
+        System.out.println("Hello World");
     }
 }

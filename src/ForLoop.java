@@ -24,7 +24,7 @@ public class ForLoop {
         // For Each Loop
 
         String [] names = {"Mg Mg","Su Su","Nu Nu","Hla Hla"};
-        for (String name : names) { // data Type : Array.Array
+        for (String name : names) { // data Type : MyArray.MyArray
             System.out.println(name);
         }
         System.out.println("====================================");
